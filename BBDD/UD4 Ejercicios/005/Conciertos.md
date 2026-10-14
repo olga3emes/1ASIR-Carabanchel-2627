@@ -17,3 +17,11 @@ Las restricciones semánticas que se observan son las siguientes:
 2) Un músico puede participar en una sola orquesta.
 3) Una obra no se podrá representar los lunes ya que las salas cierran ese día por descanso del personal
 
+
+Conciertos (ID, Nombre, Fecha, Hora, Sala, Lista de obras, Orquesta, Director, Compositor, Orquesta)
+Salas de conciertos(ID, Nombre, Dirección (Población, Calle, Número), Aforo)
+Orquesta(ID, Nombre, Nacionalidad, Presupuesto)
+Músicos (ID, Nombre, DNI, Teléfono, Fecha de Nacimiento, InstrumentoSSS) SOLO 1 orquesta
+Director(ID, Nombre, DNI, Teléfono, Fecha de Nacimiento, Años de Experiencia y qué orquestas dirige)
+Compositor(ID, Nombre, DNI, Fecha de Nacimiento, Lugar de Nacimiento, Fecha de Fallecimiento)
+Obra(ID, Código secuencial, Título, Duración, Dinámica(SOLO 1: pianíssimo, piano, mezzo piano, mezzo forte, forte y fortísimo))

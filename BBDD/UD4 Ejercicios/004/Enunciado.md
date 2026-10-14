@@ -7,3 +7,9 @@ Hasta el momento se registran los siguientes datos en documentos varios:
 •	El cuerpo del pedido son varias líneas, en cada línea se especifican el número del artículo pedido y la cantidad.
 •	Además, se ha determinado que se debe almacenar la información de las fábricas. Sin embargo, dado el uso de distribuidores, se usará: Número de la fábrica (único) y Teléfono de contacto.
 •	Y se desean ver cuántos artículos (en total) provee la fábrica. También, por información estratégica, se podría incluir información de fábricas alternativas respecto de las que ya fabrican artículos para esta empresa.
+
+
+Cliente (ID, Nombre, Dirección VARIAS, Saldo, Límite de crédito, Descuento)
+Artículo (ID, Descripción, Existencias para cada fábrica)
+Fábrica (ID, Teléfono de contacto)
+Pedido (ID,cabecera ( nº Cliente, Dirección, Fecha) + cuerpo (varias líneas (artículo, cantidad)))
