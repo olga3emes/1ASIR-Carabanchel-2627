@@ -50,6 +50,7 @@ Estudiante.
 Profesor.
 Auror.
 Investigador mágico.
+
 Estudiantes
 
 De los estudiantes interesa conocer además:
@@ -58,6 +59,8 @@ Curso actual.
 Año de ingreso.
 Casa a la que pertenecen.
 Nivel académico.
+
+
 Profesores
 
 De los profesores se almacenan:
@@ -88,6 +91,8 @@ Herbología.
 Transformaciones.
 Encantamientos.
 Historia de la Magia.
+
+
 Departamentos
 
 De cada departamento se conoce:
@@ -119,6 +124,9 @@ Transformación
 Invocación
 Curación
 Defensa
+
+
+
 Varitas mágicas
 
 De cada varita se conoce:
@@ -142,6 +150,8 @@ Especie.
 Nivel de peligrosidad.
 Hábitat.
 Estado de conservación.
+
+
 Pociones
 
 Cada poción estará identificada por un código.
@@ -188,6 +198,8 @@ Nombre.
 Descripción.
 Puntuación máxima.
 Nivel de dificultad.
+
+
 Eventos mágicos
 
 Cuando se celebra un evento mágico se registra:
@@ -230,6 +242,7 @@ Mazmorra
 Aula
 Estadio
 Ministerio
+
 Restricciones semánticas
 Cada escuela debe tener al menos una casa mágica.
 
